@@ -1,0 +1,1 @@
+function toggleMenu(){document.getElementById("menu").classList.toggle("active")}window.addEventListener("scroll",()=>{const n=document.getElementById("navbar");if(n)window.scrollY>50?n.classList.add("scrolled"):n.classList.remove("scrolled")});
